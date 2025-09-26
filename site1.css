@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 15vh;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+#logotipo {
+    height: 75%;
+    margin-left: 10%;
+}
+
+#home, #empresa, #servicos, #contato {
+    height: 30%;
+}
+
+#home {
+    margin-left: 15%;
+}
+
+#foto_principal {
+    width: 100%;
+    height: 45vh;
+}
+
+#foto_principal img {
+    width: 100%;
+    height: 100%;
+}
+
+#cabecalho p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#empresa {
+    margin-left: 2%;
+}
+
+#servicos {
+    margin-left: 2%;
+}
+
+#contato {
+    margin-left: 2%;
+}
+
+#boas_vindas {
+    width:100%;
+    height:25vh;
+    background-color:#333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boas_vindas h1 {
+    font-family: "Yesteryear", cursive;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
